@@ -1,10 +1,11 @@
 import React from "react";
 
 export default function Meme() {
+  const image = "./Images/meme-image.jpeg";
   const [meme, setMeme] = React.useState({
     topText: "",
     bottomText: "",
-    randomImage: "http://i.imgflip.com/1bij.jpg",
+    randomImage: image,
   });
   const [allMemes, setAllMemes] = React.useState([]);
 

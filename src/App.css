@@ -15,7 +15,7 @@ main {
   display: flex;
   justify-content: center;
   height: 55px;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, #6b6406 1.18%, #A626D3 100%);
   color: white;
   padding: 10px;
 }
@@ -162,7 +162,7 @@ main {
   .meme--image{
     display: block;
     margin: 40px auto;
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 

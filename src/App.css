@@ -167,3 +167,44 @@ main {
   }
 
 }
+
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .header{
+    width: 100%;
+  }
+
+  .header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+  }
+
+  .form--input{
+    width: 150px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    border-radius: 3px;
+    color:#711F8D;
+  }
+  
+
+  .form--button{  
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+    font-size:15px;
+  }
+
+  .meme--image{
+    display: block;
+    margin: 40px auto;
+    width: 100%;
+    height: auto;
+  }
+
+}
